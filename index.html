@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulários</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/post.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Cadastro de Heróis</h1>
+            <p>Inscreva-se para participar da próxima missão.</p>
+        </header>
+        <main>  
+            <section>
+                <form id="form-destino">
+                <h2>Destino de Viagem</h2>
+                    
+                    <label for="title">País:</label>
+                    <input id="title" name="title" type="text" minlength="3"  maxlength="100" required/>
+                    
+                    <label for="tipo">Tipo de Destino</label>
+                    <input id="tipo" name="tipo" type="text" required/>
+                    
+                    <label for="epoca">Melhor época:</label>
+                    <input id="epoca" name="epoca" type="text" required/>
+
+                    <label for="custo">Custo médio:</label>
+                    <input id="custo" name="custo" type="number" required/>
+
+                    <label for="imageUrl">URL da imagem (opicional):</label>
+                    <input id="imagemUrl" name="imagemUrl" type="url"/>
+    
+                    <button type="submit">Enviar Destino de Viajem</button>
+
+                    <p id="resposta"></p>
+              </section>
+            </form>
+        </main>
+        <footer>
+            <p>Prática de formulário HTML</p>
+        </footer>
+    </body>
+</html>
