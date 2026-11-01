@@ -30,7 +30,7 @@ form.addEventListener("submit", async function (event) {
       pais: dados.get("pais"),
       tipo_destino: dados.get("tipo_destino"),
       melhor_epoca: dados.get("melhor_epoca"),
-      custo_medio: Number(dados.get("custo_medio")),
+      custo_medio: dados.get("custo_medio"),
       imageUrl: dados.get("imageUrl") || null
   }
 
